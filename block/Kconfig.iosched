@@ -70,7 +70,7 @@ choice
 	config DEFAULT_DEADLINE
 		bool "Deadline" if IOSCHED_DEADLINE=y
 		
-	config DEFAULT_ROQ
+	config DEFAULT_ROW
 		bool "Row" if IOSCHED_ROW=y
 
 	config DEFAULT_CFQ
